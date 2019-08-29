@@ -1,0 +1,19 @@
+#NAME BY IT GET REGISTERED
+
+spring:
+  application:
+    name: eureka-server
+    
+server:
+# DEFAULT PORT IS 8671
+  port: 9090 
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+logging:
+ level:
+  com:
+   netflix:
+    eureka: OFF
+    discovery: OFF
